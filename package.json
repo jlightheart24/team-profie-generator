@@ -1,0 +1,26 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "generates an html for team",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlightheart24/team-profile-generator.git"
+  },
+  "author": "Jonny Lightheart",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlightheart24/team-profie-generator/issues"
+  },
+  "homepage": "https://github.com/jlightheart24/team-profie-generator#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3",
+    "jest": "^26.6.1"
+  }
+}
