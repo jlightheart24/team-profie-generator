@@ -8,7 +8,7 @@ test('creates an employee object', () => {
     expect(employee.email).toEqual(expect.any(String));
 });
 
-test('changes emplyee name', () => {
+test('changes employee name', () => {
     const employee = new Employee('Jonny');
 
     employee.getName('Jonathan');
@@ -16,7 +16,7 @@ test('changes emplyee name', () => {
     expect(employee.name).toEqual(expect.stringContaining('Jonathan'));
 });
 
-test('changes emplyee id', () => {
+test('changes employee id', () => {
     const employee = new Employee('Jonny', 1234);
 
     employee.getId('12ABD7');
@@ -24,7 +24,7 @@ test('changes emplyee id', () => {
     expect(employee.id).toEqual(expect.stringContaining('12ABD7'));
 });
 
-test('changes emplyee email', () => {
+test('changes employee email', () => {
     const employee = new Employee('Jonny', 1234, 'jonnylightheart@gmail.com');
 
     employee.getEmail('lightheartjonathan@gmail.com');
